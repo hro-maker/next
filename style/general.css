@@ -1,0 +1,16 @@
+
+.wraper{
+    display: grid;
+    grid-template-columns: repeat(6,minmax(200px,300px));
+    grid-gap: 10px;
+}
+.item{
+    /* width: 200px; */
+    background-color: #000;
+    color: wheat;
+    padding: 10px;
+}
+
+.item > span{
+    font-size: 30px;
+}
